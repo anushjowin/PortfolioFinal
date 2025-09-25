@@ -5,7 +5,7 @@ const profiles = [
         name: "Anush Jowin A",
         role: "Full Stack Developer",
         specialty: "React & Node.js Expert",
-        avatar: "/assets/Anush.jpg",
+        avatar: "assets/Anush.jpg",
         description: "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specialized in modern JavaScript frameworks and cloud architecture with a focus on creating seamless user experiences.",
         skills: [
             { name: "React/Next.js", level: 95, color: "linear-gradient(135deg, #61dafb, #21759b)" },
@@ -33,7 +33,7 @@ const profiles = [
         name: "Harshdeep Sharma",
         role: "UX/UI Designer",
         specialty: "Design Systems & User Research",
-        avatar: "/assets/harsh.jpg",
+        avatar: "assets/harsh.jpg",
         description: "Creative UX/UI designer focused on creating intuitive and beautiful digital experiences. Expert in design systems, user research, and prototyping with a passion for solving complex user problems through elegant design solutions.",
         skills: [
             { name: "Figma/Adobe XD", level: 96, color: "linear-gradient(135deg, #f24e1e, #a259ff)" },
@@ -60,7 +60,7 @@ const profiles = [
         name: "R Jerphin",
         role: "Data Scientist",
         specialty: "ML & Analytics",
-        avatar: "/assets/jerphin.jpg",
+        avatar: "assets/jerphin.jpg",
         description: "Data scientist with expertise in machine learning, statistical analysis, and big data processing. Transforms complex data into actionable business insights using cutting-edge AI technologies and advanced analytics methodologies.",
         skills: [
             { name: "Python/R", level: 94, color: "linear-gradient(135deg, #3776ab, #ffd43b)" },
@@ -88,7 +88,7 @@ const profiles = [
         name: "Lijo Paul M E",
         role: "Digital Marketing Strategist",
         specialty: "Growth & Social Media",
-        avatar: "/assets/lijo.jpg",
+        avatar: "assets/lijo.jpg",
         description: "Results-driven digital marketing strategist specializing in growth hacking, social media campaigns, and conversion optimization for tech startups. Expert in building brand awareness and driving measurable business growth through innovative marketing strategies.",
         skills: [
             { name: "Growth Marketing", level: 93, color: "linear-gradient(135deg, #fa709a, #fee140)" },
@@ -459,4 +459,5 @@ if ('performance' in window) {
             console.log('Page Load Time:', perfData.loadEventEnd - perfData.loadEventStart, 'ms');
         }, 0);
     });
+
 }
